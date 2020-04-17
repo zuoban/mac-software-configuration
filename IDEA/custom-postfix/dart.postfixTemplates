@@ -1,0 +1,2 @@
+.provide : 创建 Provide
+  ANY → Provide.value<$expr$>(context);

@@ -1,2 +1,5 @@
 .provide : 创建 Provide
   ANY → Provide.value<$expr$>(context);
+
+.var : var T name = expr;
+  ANY → var $var:suggestVariableName()$ = $expr$;
